@@ -26,8 +26,8 @@ function reducer(state, action) {
     case ACTIONS.SET_SUB_NUM:
       return {
         count: state.count,
-        subNum: state.subNum,
-        addNum: action.payload,
+        addNum: state.addNum,
+        subNum: action.payload,
       }
     case ACTIONS.SET_ADD_NUM:
       return {
