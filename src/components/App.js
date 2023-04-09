@@ -19,7 +19,7 @@ function reducer(state, action) {
       }
     case ACTIONS.DECREMENT:
       return {
-        count: Number(state.count) - Number(state.addNum),
+        count: Number(state.count) - Number(state.subNum),
         addNum: state.addNum,
         subNum: state.subNum,
       }
