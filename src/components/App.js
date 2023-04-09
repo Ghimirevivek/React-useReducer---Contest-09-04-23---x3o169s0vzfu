@@ -46,7 +46,7 @@ function reducer(state, action) {
 
 const App = () => {
   const initialState = {
-    count: 0,
+    count: 10,
     subNum: 1,
     addNum: 1,
   }
